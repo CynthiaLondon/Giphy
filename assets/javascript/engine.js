@@ -16,8 +16,17 @@ function renderButtons() {
 
 
 	//loop
-	for (var i = Things.length - 1; i >= 0; i--) {
-		Things[i]
+	for (var i = 0; i < movies.length; i++) {
+		
+		//add buttons
+
+		var a = $('<button>')
+		a.addClass('movie'); //adds a class
+		a.attr('data-name', movies[i]);
+		a.text(movies[i]);
+		$('#moviesView').append(a);
+
+
 	}
 
 }

@@ -30,3 +30,17 @@ function renderButtons() {
 	}
 
 }
+
+//one button clicked fuction
+
+		$('addMovie').on('click', function(){
+
+			//grabs textbox input
+			var movie = $("movie-input").val()trim();
+
+			//adds input to array
+			movies.push(movie);
+
+
+		}
+

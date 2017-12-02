@@ -25,4 +25,8 @@
 
 		buttongenerator();
 
-		//create results when click on button
+		//create results when click on 
+
+		$(document).on("click"), ".gif-button, function() {
+			
+		}

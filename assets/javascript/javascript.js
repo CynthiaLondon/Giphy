@@ -1,4 +1,4 @@
-var topics = ["Rabbits", "Koala", "Mouse"];
+var topics = ["Polar Bear", "Blue Whale", "Penguin"];
     function renderButtons() {
         $('#startingButtons').empty();
         for (i = 0; i < topics.length; i++) {

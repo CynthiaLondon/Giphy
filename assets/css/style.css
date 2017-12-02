@@ -1,0 +1,35 @@
+body {
+    margin-left: 60px;
+    height: auto;
+    background-color: #008080;
+    width: 600px;
+    padding-top: 10px;
+}
+.jumbotron {
+    background: #B0C4DE;
+    background-size: 100%;
+    background-position: center;
+    font-size: 45pt;
+    text-align: center;
+    font-family: 'Diplomata SC', cursive;
+}
+.panel {
+    width: 800px;
+    height: auto;
+    background-color: #B0C4DE;
+}
+.btn {
+    font-family: 'Diplomata SC', cursive;
+    background: #B0C4DE;
+    border: lightgray;
+    color: black;
+    font-size: 16px;
+}
+h1 {
+    font-family: 'Diplomata SC', cursive;
+}
+p {
+    font-style: italic;
+    font-family: 'Diplomata SC', cursive;
+}
+

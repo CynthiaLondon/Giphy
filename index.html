@@ -4,37 +4,56 @@
 	<title>GIFanimaltastic!</title>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="viewport content="width=device-width, initial-scale-1">
-	<link rel="stylesheet" href="assets/css/reset.css">
-	<link rel="stylesheet" href="assets/css/sytle.css">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script scr="https://ajax.googleaspis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<scrip scr="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Diplomata+SC" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-</head>
-<body>
-	<h1>Cute Animal GIFS<h1>
+  	</head>
+    <body>
+    <div class="container">
+        <div class="jumbotron"> Gifsssssss!</div>
+        <h4 align="center">Click the buttons below!</h3>
+        <div class="row" align="center">
+            <div class="panel panel-default" align="left">
 
-		<div id="buttons">
-		</div>
+                <div id="startingButtons">
 
+                    <div class="clear"></div>
+                </div>
+                <div id="addButtons"></div>
+            </div>
+        </div>
+        <br>
+        <div class="row" align="center">
+            <form id="userInput" class="form-inline">
+                <label for="userInput"></label>
+                <input type="text" id="user-Input" class=" form-control">
+                <input id="grabUserInput" type="submit" value="Add!" class="btn btn">
+            </form>
+            <h4 align="center">Enter a new button name and click add!</h4>
+        </div>
+        <br>
+        <div class="row" align="center">
+            <div class="panel panel-default ">
+                <h1>Gifsssssssss</h1>
+                <div id="gifsAppearHere">
+                </div>
+            </div>
+        </div>
+    </div>
+     <script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
+     
+      <script type="text/javascript" src="assets/javascript/javascript.js"></script>
 
-<!--Add button-->
-	
-		<div classs="form">
-			<form id="gifForm">
-			<label form="gif-input">Add new button!</label>
-			<input type="text" id="gif-input">
-			<br>
-			<input id="addGif" type="submit" value="Add">
-		</form>
-		</div>
-<!--GIFS-->
-	<div class = "jumbotron">
-		<div class = "gifsAppearHere">
-			<div class = "item"></div>
-		</div>	 
-
-<script type = "text/javascript" scr="assets/javascript/javascript.js"></script>
-</body>
-</html>
+ </body>
+</hmtl>

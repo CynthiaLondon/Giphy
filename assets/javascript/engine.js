@@ -41,6 +41,17 @@ function renderButtons() {
 			//adds input to array
 			movies.push(movie);
 
+			//create button
+			renderButtons();
 
-		}
+			//default
+			return false;
+
+		})
+
+
+
+
+		//call render button
+		renderButtons();
 

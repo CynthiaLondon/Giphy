@@ -10,6 +10,7 @@ body {
     font-size: 45pt;
     text-align: center;
     font-family: 'Diplomata SC', cursive;
+
 }
 .panel {
     width: 800px;
@@ -17,18 +18,14 @@ body {
     background-color: #B0C4DE;
 }
 
-img.resize {
-  max-width: 20%;
-  max-height: 20%;
-  padding-bottom: 20px;
-
-}
 .btn {
     font-family: 'Diplomata SC', cursive;
     background: #B0C4DE;
     /*border: #696969;*/
     color: black;
-    font-size: 16px;
+    font-size: 16px
+    border: 5px;
+    margin-right: 4px;
 }
 h1 {
     font-family: 'Diplomata SC', cursive;

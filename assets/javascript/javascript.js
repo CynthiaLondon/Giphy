@@ -7,7 +7,7 @@ var topics = ["Polar Bear", "Blue Whale", "Penguin"];
 
 //function to make buttons
     function renderButtons() {
-        $('#startingButtons').empty();
+        $('#startButtons').empty();
 
         //for loop to create buttons from array
         for (i = 0; i < topics.length; i++) {
@@ -21,10 +21,10 @@ var topics = ["Polar Bear", "Blue Whale", "Penguin"];
             a.attr('data-name', topics[i]);
             a.text(topics[i]);
             //append text from array to button
-            $('#startingButtons').append(a);
+            $('#startButtons').append(a);
 
 
-          
+
         }
         //call add gif function below to add gifs when buttons clicked
         addGif();
@@ -41,8 +41,14 @@ var topics = ["Polar Bear", "Blue Whale", "Penguin"];
         $('#user-Input').val("");
         return false;
     });
+
    //calls render function above, adds text inputed
     renderButtons();
+
+    //add clear, clear added buttons to start all over
+
+
+  
 
     //add gifs when buttons clicked
     function addGif() {

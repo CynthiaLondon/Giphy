@@ -16,6 +16,10 @@ body {
     width: 800px;
     height: auto;
     background-color: #B0C4DE;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .btn {
@@ -24,9 +28,10 @@ body {
     /*border: #696969;*/
     color: black;
     font-size: 16px
-    border: 5px;
-    margin-right: 4px;
+    border: 4px;
+    margin-right: 5px;
 }
+
 h1 {
     font-family: 'Diplomata SC', cursive;
 }

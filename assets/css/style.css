@@ -30,6 +30,7 @@ body {
     font-size: 16px
     border: 4px;
     margin-right: 5px;
+    margin-top: 5px;
 }
 
 h1 {
@@ -38,6 +39,7 @@ h1 {
 
 h4{
     color: #ADD8E6;
+    text-align: center;
 }
 p {
     font-style: italic;
@@ -47,4 +49,9 @@ p {
 
 #gifsAppearHere {
     padding-bottom: 30px;
+}
+
+#user-Input {
+    width: 150px;
+
 }
